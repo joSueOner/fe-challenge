@@ -13,6 +13,11 @@ providing a smooth user experience on both mobile devices and desktop computers.
 
 Vue 3 with TypeScript, Only CSS, Vite
 
+## Live Demo
+
+[https://fe-challenge-six.vercel.app/](https://fe-challenge-six.vercel.app/)
+
+
 ## Project Structure
 ```bash 
 ├── src

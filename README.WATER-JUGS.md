@@ -16,6 +16,11 @@ Given two water jugs with fixed capacities (e.g., a 3-liter jug and a 5-liter ju
 
 Vue 3 with TypeScript, Only CSS, Vite
 
+## Live Demo
+
+[https://fe-challenge-six.vercel.app/](https://fe-challenge-six.vercel.app/)
+
+
 ## Project Structure
 ```bash 
 ├── src

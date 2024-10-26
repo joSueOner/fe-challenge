@@ -234,7 +234,9 @@ footer {
 
     .FooterContent__Nav {
         width: 100%;
-        justify-content: space-evenly;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
 
     }
 }
@@ -261,6 +263,7 @@ footer {
     .FooterContent__Nav {
         width: 100%;
         justify-content: space-evenly;
+        flex-direction: row;
 
     }
 

@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "status": "ON SALE",
+        "price": 65,
+        "oldPrice": 165,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 0"
+    },
+    {
+        "id": 2,
+        "name": "Jane",
+        "status": "ON SALE",
+        "price": 97,
+        "oldPrice": 197,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 1"
+    },
+    {
+        "id": 3,
+        "name": "David",
+        "status": "ON SALE",
+        "price": 168,
+        "oldPrice": 1168,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 2"
+    },
+    {
+        "id": 4,
+        "name": "David",
+        "status": "ON SALE",
+        "price": 100,
+        "oldPrice": 1100,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 3"
+    },
+    {
+        "id": 5,
+        "name": "John",
+        "status": "ON SALE",
+        "price": 145,
+        "oldPrice": 1145,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 4"
+    },
+    {
+        "id": 6,
+        "name": "David",
+        "status": "ON SALE",
+        "price": 156,
+        "oldPrice": 1156,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 5"
+    },
+    {
+        "id": 7,
+        "name": "David",
+        "status": "ON SALE",
+        "price": 82,
+        "oldPrice": 182,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 6"
+    },
+    {
+        "id": 8,
+        "name": "Emily",
+        "status": "ON SALE",
+        "price": 89,
+        "oldPrice": 189,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 7"
+    },
+    {
+        "id": 9,
+        "name": "John",
+        "status": "ON SALE",
+        "price": 196,
+        "oldPrice": 1196,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 8"
+    },
+    {
+        "id": 10,
+        "name": "Emily",
+        "status": "ON SALE",
+        "price": 138,
+        "oldPrice": 1138,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 9"
+    },
+    {
+        "id": 11,
+        "name": "John",
+        "status": "ON SALE",
+        "price": 115,
+        "oldPrice": 1115,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 10"
+    },
+    {
+        "id": 12,
+        "name": "Emily",
+        "status": "ON SALE",
+        "price": 119,
+        "oldPrice": 1119,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 11"
+    },
+    {
+        "id": 13,
+        "name": "Mike",
+        "status": "ON SALE",
+        "price": 80,
+        "oldPrice": 180,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 12"
+    },
+    {
+        "id": 14,
+        "name": "Mike",
+        "status": "ON SALE",
+        "price": 128,
+        "oldPrice": 1128,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 13"
+    },
+    {
+        "id": 15,
+        "name": "John",
+        "status": "ON SALE",
+        "price": 150,
+        "oldPrice": 1150,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 14"
+    },
+    {
+        "id": 16,
+        "name": "David",
+        "status": "ON SALE",
+        "price": 122,
+        "oldPrice": 1122,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 15"
+    },
+    {
+        "id": 17,
+        "name": "Emily",
+        "status": "ON SALE",
+        "price": 61,
+        "oldPrice": 161,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 16"
+    },
+    {
+        "id": 18,
+        "name": "Mike",
+        "status": "ON SALE",
+        "price": 175,
+        "oldPrice": 1175,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 17"
+    },
+    {
+        "id": 19,
+        "name": "Emily",
+        "status": "ON SALE",
+        "price": 70,
+        "oldPrice": 170,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 18"
+    },
+    {
+        "id": 20,
+        "name": "David",
+        "status": "ON SALE",
+        "price": 158,
+        "oldPrice": 1158,
+        "image": "/src/assets/img/dota2.png",
+        "image2": "/src/assets/img/dota-2-logo.svg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc. Nullam nec nunc nec nunc. 19"
+    }
+]

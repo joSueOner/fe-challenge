@@ -1,29 +1,13 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+// import { ref } from 'vue'
 import SelectComponet from '@/Shared/Components/Select/SelectComponent.vue'
 import PaginationComponent from '@/Shared/Components/Pagination/PaginationComponent.vue';
-const list = ref([
-    "Item 1",
-    "Item 2",
-    "Item 3",
-    "Item 4",
-    "Item 5",
-    "Item 6",
-    "Item 7",
-    "Item 8",
-    "Item 9",
-    "Item 10",
-    "Item 11",
-    "Item 12",
-    "Item 13",
-    "Item 14",
-    "Item 15",
-    "Item 16",
-    "Item 17",
-    "Item 18",
-    "Item 19",
-    "Item 20",
-]);
+import { Product } from '@/Core/Models/Product/Product';
+
+
+const props = defineProps<{
+    products: Product[]
+}>()
 
 </script>
 <template>
@@ -44,13 +28,13 @@ const list = ref([
         </div>
 
         <div class="HomeList__List row">
-            <div class="HomeList__Card" v-for="item in list" :key="item">
+            <div class="HomeList__Card" v-for="product in props.products" :key="product.id">
                 <header class="HomeList__Card--Head">
                     <div class="HomeList__Card--Head-Button">
                         <div>
                             <span></span>
                             <h5>
-                                ON SALE
+                                {{ product.status }}
                             </h5>
                         </div>
 
@@ -64,30 +48,30 @@ const list = ref([
                 </header>
                 <section class="HomeList__Card--Body">
                     <div class="HomeList__Card--Body-Image">
-                        <img src="https://picsum.photos/70/70?random=1" alt="">
+                        <img :src="product.image" width="70" alt="">
                     </div>
                     <div class="HomeList__Card--Body-Name">
                         <h4>
                             Blue Partyhat
                         </h4>
-                        <img src="https://picsum.photos/50/30?random=1" alt="">
+                        <img :src="product.image2" width="35" alt="">
 
 
 
                     </div>
                     <div class="HomeList__Card--Body-Price">
                         <h4>
-                            $450.00
+                            {{ product.price }}$
                         </h4>
                         <h4>
-                            $522.50
+                            {{ product.oldPrice }}$
                         </h4>
 
                     </div>
                     <div class="HomeList__Card--Body-Description">
                         <h5>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quo, a ea repellendus
-                            tempore rem fuga optio quam quod
+                            {{ product.description }}
+
                         </h5>
                     </div>
                     <div class="HomeList__Card--Body-Buttons">

@@ -115,4 +115,31 @@ const OnSolve = (output: OutputForm) => {
     flex-direction: column;
     gap: 1rem;
 }
+
+
+/* RESPONSIVE */
+@media (max-width: 1080px) {
+    .WaterGame {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .WaterGame {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .WaterGame {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .WaterGame {
+        gap: 0.25rem;
+    }
+}
 </style>

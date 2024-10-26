@@ -48,13 +48,13 @@ const props = defineProps<{
                 </header>
                 <section class="HomeList__Card--Body">
                     <div class="HomeList__Card--Body-Image">
-                        <img :src="product.image" width="70" alt="">
+                        <img src="@/assets/img/dota2.png" width="70" alt="">
                     </div>
                     <div class="HomeList__Card--Body-Name">
                         <h4>
                             Blue Partyhat
                         </h4>
-                        <img :src="product.image2" width="35" alt="">
+                        <img src="@/assets/img/dota-2-logo.svg" width="35" alt="">
 
 
 

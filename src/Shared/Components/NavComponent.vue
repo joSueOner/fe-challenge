@@ -24,8 +24,15 @@ const toHome = () => {
                     <span class="NavSmall__Togle--Bar"></span>
                     <span class="NavSmall__Togle--Bar"></span>
                 </div>
+                <ul v-show="isMenuActive" class="Movile">
+                    <li>
+                        <router-link to="/" active-class="Active">Inicio</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/water-jugs" active-class="Active">Water Jugs</router-link>
+                    </li>
+                </ul>
             </div>
-
             <ul>
                 <li>
                     <img src="@/assets/chicks-logo-large.svg" alt="Logo" @click="toHome" />
@@ -124,8 +131,11 @@ nav ul:first-child li:first-child {
         padding: 1rem;
     }
 
-    nav ul {
+    nav ul:not(.Movile) {
         display: none;
+    }
+
+    nav ul {
         flex-direction: column;
         width: 100%;
         text-align: center;

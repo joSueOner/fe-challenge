@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { Solution } from '@/Core/Models/Solution';
-import { defineProps } from 'vue';
 
 const props = defineProps<{
     errorMessage: string,

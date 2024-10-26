@@ -2,7 +2,6 @@
 import type { OutputForm } from '@/Core/Utils/Types';
 
 import { ref } from 'vue';
-import { defineEmits } from 'vue';
 
 const emit = defineEmits<{
     (e: 'Solve', output: OutputForm): void

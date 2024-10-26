@@ -101,11 +101,11 @@ nav ul li a:hover {
     color: var(--info);
 }
 
-nav ul li a.active {
+nav ul li a.Active {
     color: var(--info);
 }
 
-nav ul li a.active::after {
+nav ul li a.Active::after {
     content: '';
     display: block;
     width: 100%;
